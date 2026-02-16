@@ -123,7 +123,7 @@ Invoke-WebRequest http://$ip -UseBasicParsing | Select-Object -ExpandProperty St
 ![Deployed resources](./screenshots/01-az-resource-list.png)
 
 ### 2) Deployment succeeded
-![Deployment state](./screenshots/02-deployment-succeeded.png)
+![Deployment state](./screenshots/02-deployment-provisioningstate-succeeded.png)
 
 ### 3) NSG rules (SSH + HTTP)
 ![NSG rules](./screenshots/03-nsg-rules.png)
@@ -132,13 +132,13 @@ Invoke-WebRequest http://$ip -UseBasicParsing | Select-Object -ExpandProperty St
 ![Outputs](./screenshots/04-deployment-outputs.png)
 
 ### 5) Nginx is active and enabled
-![Nginx status](./screenshots/05-nginx-active-enabled.png)
+![Nginx status](./screenshots/05-ssh-nginx-active-enabled.png)
 
 ### 6) HTTP returns 200 from the VM public IP
-![HTTP 200](./screenshots/06-http-200.png)
+![HTTP 200](./screenshots/06-http-statuscode-200.png)
 
 ### 7) HTML content starts with the Nginx welcome page
-![Nginx page snippet](./screenshots/07-nginx-page-snippet.png)
+![Nginx page snippet](./screenshots/07-http-content-snippet.png)
 
 ## Security notes
 
