@@ -1,13 +1,49 @@
-# Secrets / keys
+# =========================
+# Azure IaC (Bicep) Lab
+# =========================
+
+# --- Secrets / keys (DO NOT COMMIT) ---
 *.pem
 *.ppk
 *.key
-*.pub
+*.pfx
+*.p12
+*.crt
+*.cer
 
-# Local Azure auth/cache (si aparece)
-.azure/
+# Common SSH key names
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
 
-# Env / OS
+# Lab key name used in this repo
+azure_iac_lab
+azure_iac_lab.pub
+*_key.pem
+*_key.ppk
+
+# --- Environment files ---
 .env
+.env.*
+*.env
+
+# --- Azure / ARM / Bicep build artifacts (optional) ---
+# Keep your source: main.bicep
+*.bicep.json
+*.arm.json
+*.parameters.json
+*.param.json
+
+# --- Logs / temp ---
+*.log
+*.tmp
+*.bak
+*.swp
+
+# --- OS / IDE ---
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
+*.code-workspace
