@@ -7,11 +7,11 @@ Each lab contains its own `README.md` with step-by-step instructions and evidenc
 
 ### Lab 01 — VM + NSG + SSH + Nginx (2 versions)
 
-- **Lab 01A (Portal / Manual)** → [`lab-01/`](./lab-01)
+- **Lab 01A (Portal / Manual)** → [`lab-01/`](./Portal)
   - Built using **Azure Portal** steps (manual provisioning + validation)
   - Evidence: resource list, NSG rules, SSH access, Nginx over HTTP
 
-- **Lab 01B (IaC / Bicep + Azure CLI)** → [`iac-bicep-lab01/`](./iac-bicep-lab01)
+- **Lab 01B (IaC / Bicep + Azure CLI)** → [`iac-bicep-lab01/`](./iac-bicep)
   - Deploys the same architecture using **Bicep + Azure CLI**
   - Includes parameters, outputs, validation, and cleanup workflow
 
