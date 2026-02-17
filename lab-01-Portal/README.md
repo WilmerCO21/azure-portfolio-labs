@@ -5,7 +5,7 @@
 ## Goal
 Deploy an Ubuntu VM, secure access with NSG (SSH restricted to my IP), install Nginx, and validate HTTP access.
 
-## Evidence (Screenshots)
+## Evidence (Screenshot)
 
 1. Resource group overview  
 ![01](./screenshots/01-resource-group-overview.png)
