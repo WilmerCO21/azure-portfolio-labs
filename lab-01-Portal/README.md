@@ -1,4 +1,6 @@
-# Lab 01 — VM + NSG + SSH + Nginx
+# Lab 01 (Portal) — Ubuntu VM + NSG + SSH + Nginx
+
+> This lab was executed manually in Azure Portal (GUI).
 
 ## Goal
 Deploy an Ubuntu VM, secure access with NSG (SSH restricted to my IP), install Nginx, and validate HTTP access.
