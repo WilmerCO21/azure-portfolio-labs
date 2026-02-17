@@ -1,17 +1,13 @@
-# Keys / secrets
+# Secrets / keys
 *.pem
 *.ppk
 *.key
-id_rsa
-id_ed25519
-azure_iac_lab
+*.pub
 
-# OS / editor
+# Local Azure auth/cache (si aparece)
+.azure/
+
+# Env / OS
+.env
 .DS_Store
 Thumbs.db
-.vscode/
-
-# IaC tooling temp (por si luego agregas)
-.terraform/
-*.tfstate
-*.tfstate.*
