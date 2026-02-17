@@ -8,21 +8,21 @@ Deploy an Ubuntu VM, secure access with NSG (SSH restricted to my IP), install N
 ## Evidence (Screenshots)
 
 1. Resource group overview  
-![01](./screenshots/01-resource-group-overview.png)
+![01](./screenshots/01-resource-group-overview(1).png)
 
 2. VM overview  
-![02](./screenshots/02-vm-overview.png)
+![02](./screenshots/02-vm-overview(1).png)
 
 3. NSG inbound rules (SSH + HTTP)  
-![03](./screenshots/03-nsg-inbound-rules.png)
+![03](./screenshots/03-nsg-inbound-rules(1).png)
 
 4. SSH connection  
-![04](./screenshots/04-ssh-connection.png)
+![04](./screenshots/04-ssh-connection(1).png)
 
 5. Nginx welcome page  
-![05](./screenshots/05-nginx-welcome.png)
+![05](./screenshots/05-nginx-welcome(1).png)
 
 6. Nginx status + curl localhost  
-![06](./screenshots/06-nginx-status-curl.png)
+![06](./screenshots/06-nginx-status-curl(1).png)
 
 
