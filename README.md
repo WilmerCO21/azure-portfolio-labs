@@ -1,17 +1,17 @@
 # Azure Portfolio Labs (Hands-On)
 
-Hands-on Azure labs to demonstrate practical cloud skills for an **Azure/Cloud Intern** role.
+Hands-on Azure labs to demonstrate practical cloud skills for an **Azure/Cloud Intern** role.  
 Each lab contains its own `README.md` with step-by-step instructions and evidence (screenshots).
 
 ## Labs Included
 
 ### Lab 01 — VM + NSG + SSH + Nginx (2 versions)
 
-- **Lab 01A (Portal / Manual)** → [`Portal/`](./lab-01/Portal)
+- **Lab 01A (Portal / Manual)** → [`lab-01/Portal/`](./lab-01/Portal)
   - Built using **Azure Portal** steps (manual provisioning + validation)
   - Evidence: resource list, NSG rules, SSH access, Nginx over HTTP
 
-- **Lab 01B (IaC / Bicep + Azure CLI)** → [`iac-bicep/`](./lab-01/iac-bicep)
+- **Lab 01B (IaC / Bicep + Azure CLI)** → [`lab-01/iac-bicep/`](./lab-01/iac-bicep)
   - Deploys the same architecture using **Bicep + Azure CLI**
   - Includes parameters, outputs, validation, and cleanup workflow
 
@@ -43,4 +43,5 @@ All labs include cleanup steps. **Always delete Resource Groups after testing** 
 
 ## Author
 **Wilmer Curi Orosco**
+
 
